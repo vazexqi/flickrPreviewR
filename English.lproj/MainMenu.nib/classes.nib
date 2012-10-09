@@ -1,0 +1,51 @@
+{
+    IBClasses = (
+        {
+            ACTIONS = {
+                "add_user" = id; 
+                "force_refresh" = id; 
+                "mark_selected_viewed" = id; 
+                remove = id; 
+                save = id; 
+                "show_add_menu" = id; 
+            }; 
+            CLASS = FavoritesDataSource; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                "add_favorite_panel" = NSPanel; 
+                "download_progressbar" = NSProgressIndicator; 
+                "outline_view" = NSOutlineView; 
+                "remove_button" = NSButton; 
+                "username_textfield" = NSTextField; 
+                "warning_textfield" = NSTextField; 
+            }; 
+            SUPERCLASS = NSObject; 
+        }, 
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {
+            CLASS = FlickrViewerController; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                "favorites_drawer" = NSDrawer; 
+                "image_preview" = WebView; 
+                "image_view" = WebView; 
+                "status_textfield" = NSTextField; 
+            }; 
+            SUPERCLASS = NSObject; 
+        }, 
+        {CLASS = ImagePreview; LANGUAGE = ObjC; SUPERCLASS = NSScrollView; }, 
+        {
+            CLASS = ImagePreviewHTMLSource; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {"image_preview" = WebView; }; 
+            SUPERCLASS = NSObject; 
+        }, 
+        {
+            CLASS = ImageViewHTMLSource; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {"image_view" = id; }; 
+            SUPERCLASS = NSObject; 
+        }
+    ); 
+    IBVersion = 1; 
+}

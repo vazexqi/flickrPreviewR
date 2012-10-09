@@ -1,0 +1,13 @@
+# Get the drawer to appear on the left [done]
+# Put some indicator bar when downloading [done]
+# Made downloading happen in a new thread [done]
+#		Still need better refresh for the threaded downloading
+# Make a info page that will display more information about the photo [not necessary, just direct to default browser]
+# Make about panel [done]
+# Don't download more than 50 pictures for photosets [done]
+# Open a panel to accept new FROB from flickr on first launch [done]
+# Add undo for removing [done]
+# Detect which are new photos [done]
+
+# Get original size whenever applicable
+# Add ability to reorder favorites (maybe photosets) in the list
